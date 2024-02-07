@@ -3,7 +3,7 @@ This repository includes an explanation of the project goals, approaches, and re
 
 The original image data used in this project is HIPAA protected so it cannot be shared publicly. Because of this, the training and validation code posted here cannot be executed.  However, sample files of model weights generated from the image data have been included, so the weight aggregation code can be executed.
 
-The data and save directories in the code are only examples. To run the aggregation code, the directories should be edited to reflect the environment you're working in.
+The data and save directories in the code are only examples. To run the aggregation code, the directories should be edited to reflect the environment you're working in. Example models from each institution can be found [here](https://depauledu-my.sharepoint.com/:f:/g/personal/igriza_depaul_edu/EkzhqsNEhJJPrDqDd9YUWWABzat6rNxDfVcZePrXVHMxgg?e=U8G1fh). 
 
 ## local_initial
 The initial training for each local model. This code constructs and fits a model for each institution. The output is the trained model weights. This code is executed once for all eight institutions, and the eight models' weights are aggregated into the global model.
@@ -21,8 +21,8 @@ The code used to perform "internal" validation on local models. This can also be
 ## global_aggregation
 The code used for aggregating the local models into a global model. There were a few experiments with the best way to aggregate weights, but in this code they are simply averaged.
 
-## data.pdf
+## data
 A visualization of the image datasets used in this project.
 
-## methodology.pdf
+## methodology
 A visualization of the federated learning process flow employed in this project.
