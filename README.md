@@ -1,5 +1,5 @@
 # Federated-Learning
-This repository includes an explanation of the project goals, approaches, and results, as well as  example code and visual aids.
+This repository includes an explanation of the project goals, approaches, and results, as well as  example code and visual aids. Refer to this repository's Wiki for a detailed summary of the project.  
 
 The original image data used in this project is HIPAA protected so it cannot be shared publicly. Because of this, the training and validation code posted here cannot be executed.  However, sample files of model weights generated from the image data have been included, so the weight aggregation code can be executed.
 
