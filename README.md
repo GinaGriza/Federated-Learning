@@ -3,6 +3,8 @@ This repository includes an explanation of the project goals, approaches, and re
 
 The original image data used in this project is HIPAA protected so it cannot be shared publicly. Because of this, the training and validation code posted here cannot be executed.  However, sample files of model weights generated from the image data have been included, so the weight aggregation code can be executed.
 
+The data and save directories in the code are only examples. To run the aggregation code, the directories should be edited to reflect the environment you're working in.
+
 ## local_initial
 The initial training for each local model. This code constructs and fits a model for each institution. The output is the trained model weights. This code is executed once for all eight institutions, and the eight models' weights are aggregated into the global model.
 
